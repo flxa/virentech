@@ -10,7 +10,7 @@
 
 		<?php if ( 'post' == get_post_type() ) : ?>
 		<div class="entry-meta">
-			<?php virentec_posted_on(); ?>
+			<?php //virentec_posted_on(); ?>
 		</div><!-- .entry-meta -->
 		<?php endif; ?>
 	</header><!-- .entry-header -->
@@ -33,6 +33,6 @@
 	</div><!-- .entry-content -->
 
 	<footer class="entry-footer">
-		<?php virentec_entry_footer(); ?>
+		<?php //virentec_entry_footer(); ?>
 	</footer><!-- .entry-footer -->
 </article><!-- #post-## -->
